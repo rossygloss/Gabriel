@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.container{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(45deg, #FC466B, #3F5EFB);
+	}
+	.flex-box{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 100vh;
+}
+	.container .card{
+		height: 100vh;
+		width: 300px;
+		background: rgba(255, 255, 255, 0.3);
+		border-radius: 20px;
+		box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+		border-top: 1px solid rgba(255, 255, 255, 0.2);
+		border-left: 1px solid rgba(255, 255, 255, 0.2);
+
+	}
+	h3{
+		text-align: center;
+		position: relative;
+		top:20%;
+		font-weight:500;
+		font-size:30px;
+		color: #fff;
+		font-family: sans-serif;
+		text-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+		.input{
+			margin:10px 0px;
+			}
+		.input input{
+			width:90%;
+			margin:10px;
+			height:20px;
+			outline:none;
+			border: none;
+			font-weight: bold;
+			text-indent: 30px;
+			padding:3px 5px;
+			color: #000;
+			box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+		::placeholder{
+			font-weight: bold;
+			text-indent: 30px;
+			padding:3px 5px;
+			color: #000;
+}
+		button{
+			box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+			background-color: crimson;
+			outline:none;
+			border: none;
+			font-weight: bold;
+			padding:3px 15px;
+			color: #fff;
+			margin:10px 90px;
+			cursor: pointer;
+}
+		button:hover{
+			background-color: rgb(192, 14, 50);
+}
+		p{
+			color: crimson;
+			font-weight: bold;
+			padding:3px 15px;
+			color: #fff;
+			
+}
+</style>
+<body>
+<div class="container">
+<h1>MY PERSONAL WEBPAGE</h1>
+<br>              
+<h2>Personal Information</h2>
+<p>-Karel Ruth A. Gabriel</p>
+<p>-19 years old</p>
+<p>-October 27, 2003</p>
+<p>-Female</p>
+<p>-Single</p>
+<p>-Filipino</p>
+<p>-Catholic</p>
+<p>-503 Sisa Street Tinajeros Malabon City</p>
+<h4>Educational Background</h4>
+<p>Elementary School: Tinajeros Elementary School</p>
+<p>High School: Tinajeros National High School</p>
+<p>Senior High School: Tinajeros National High School</p>
+<p>College: Technological University of the Philippines</p>
+<h5>Achievements</h5>
+<p>Grade 11-12 With honors</p>
+<h6>Contact Information</h6>
+<p>Cellphone number: 09958598259</p>
+<p>Facebook: Karel Gabriel</p>
+<p>Email: karelruth.gabriel@tup.edu.ph</p>
+<h7>Skills</h7>
+<p>-Active Listener</p>
+<p>-Good in time management</p>
+
+
+</body>
+</html>
